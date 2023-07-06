@@ -1,0 +1,31 @@
+025dc282b7af0f9cd733f0dec1cb2fe5
+
+http://api.exchangeratesapi.io/v1/convert?access_key=025dc282b7af0f9cd733f0dec1cb2fe5&from=UAH&to=USD&amount=1000
+http://api.exchangeratesapi.io/v1/latest?access_key=025dc282b7af0f9cd733f0dec1cb2fe5&base=USD&symbols=UAH,EUR
+
+
+
+22b528c64b594d0aae91d07a56fa5e3c
+
+https://openexchangerates.org/api/convert/1000/UAH/USD?app_id=22b528c64b594d0aae91d07a56fa5e3c
+
+
+
+69a3327806b0f0b72fec762d8b93b942
+
+
+
+8da7b57ed758623f6b144198adcd69c8
+
+
+
+ariieoan1ej64uqrkvi8183gkc
+
+
+
+
+curl -G https://api.currencyapi.com/v3/convert?value=12 -H "apikey: TiaVyN5QHewzotLDWwgIJ4ACEfr0yue0qO9MYLBU"
+
+
+curl -G https://api.currencyapi.com/v3/latest -H "apikey: TiaVyN5QHewzotLDWwgIJ4ACEfr0yue0qO9MYLBU"
+

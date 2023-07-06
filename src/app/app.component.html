@@ -1,0 +1,36 @@
+<div class="form">
+  <header class="header">
+    <div div class="falut1">
+      <p>Актуальні курси валют:</p>
+    </div>
+    <div class="falut2">
+      <div>
+        <div>
+          <h3>USD: {{usdRate}}</h3>
+        </div>
+      </div>
+      <div>
+        <div>
+          <h3>EUR: {{eurRate}}</h3>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="main">
+    <div>
+      <input type="number" name="input" value={{leftInput}} (change)="changeLeft()" [(ngModel)]="leftInput">
+      <select [(ngModel)]="selectedOptionFirst" (change)="changeLeft()">
+        <option *ngFor="let o of options">{{o.value}}</option>
+      </select>
+    </div>
+    <div>
+      <p class="TOtext">TO</p>
+    </div>
+    <div>
+      <input type="number" name="input" value={{rightInput}} (change)="changeRight()" [(ngModel)]="rightInput">
+      <select [(ngModel)]="selectedOptionSecond" (change)="changeRight()">
+        <option *ngFor="let o of options">{{o.value}}</option>
+      </select>
+    </div>
+  </div>
+</div>
